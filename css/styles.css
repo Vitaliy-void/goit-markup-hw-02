@@ -28,10 +28,6 @@ ul,
 ol {
     list-style: none;
     /* Видаляє маркери у списках */
-    padding: 0;
-    /* Видаляє внутрішні відступи, щоб уникнути зміщення */
-    margin: 0;
-    /* Видаляє зовнішні відступи, якщо потрібно */
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -136,18 +132,15 @@ address {
         padding: 16px 32px; 
             cursor: pointer;
     }
+
 .service:hover {
     background-color: #404BBF;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    transition: all 0.3s ease-in-out;
-    /* Додає плавний перехід при наведенні */
-}
+    }
+
 .service:focus {
     background-color: #404BBF;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    transition: all 0.3s ease-in-out;
-    /* Додає плавний перехід при фокусі */
 }
+
 .advantages-title {
     font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -171,6 +164,10 @@ address {
 }
 .our-team {
     background: #F4F4FD;
+}
+
+.our-team-list {
+    background-color: #FFFFFF;
 }
 .our-team-main {
     font-family: "Roboto", sans-serif;
