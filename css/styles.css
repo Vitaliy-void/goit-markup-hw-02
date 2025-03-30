@@ -53,7 +53,7 @@ span {
         color: #2e2f42;
 }
 
-.link a {
+.menu-item {
     font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
@@ -119,9 +119,9 @@ address {
 }
 
 .service {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4d5ae5;
-    font-family: "Roboto", sans-serif;
+    
+        background: #4d5ae5;
+        font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
     
@@ -129,8 +129,7 @@ address {
         line-height: 150%;
         letter-spacing: 0.04em;
         color: #fff; 
-        padding: 16px 32px; 
-            cursor: pointer;
+        cursor: pointer;
     }
 
 .service:hover {
