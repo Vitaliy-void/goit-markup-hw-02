@@ -66,13 +66,13 @@ span {
         
 }
 
-.link a:hover {
+.menu-item:hover {
     color: #404bbf;
     text-decoration: underline;
     /* Додає підкреслення при наведенні */
 }
 
-.link a:focus {
+.menu-item:focus {
     color: #404bbf;
     text-decoration: underline;
     /* Додає підкреслення при фокусі */
